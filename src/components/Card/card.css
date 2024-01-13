@@ -27,13 +27,26 @@
 
 .coffee-stats {
     display: flex;
+    align-items: center;
+    font-size: 0.875rem;
 }
 
 .coffee-rating {
     font-weight: 700;
-    margin-right: 0.4rem;
+    margin-right: 0.2rem;
 }
 
 .coffee-votes {
     color: #6F757C;
+    font-weight: 700;
+}
+
+svg {
+    margin-right: 0.2rem;
+}
+
+.coffee-sold-out {
+    margin-left: auto;
+    color: #ED735D;
+    font-weight: 700;
 }
