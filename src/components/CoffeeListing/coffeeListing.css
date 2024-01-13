@@ -26,7 +26,7 @@
 }
 
 .coffee-listing-filters button {
-    background-color: #6F757C;
+    background: none;
     color: #fefefe;
     padding: 0.8rem;
     border-radius: 0.5rem;
@@ -40,4 +40,8 @@
     width: 80%;
     margin: 0 auto;
     gap: 2rem;
+}
+
+.coffee-listing-selected {
+    background-color: #6F757C !important;
 }
