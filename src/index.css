@@ -29,3 +29,28 @@ h1 {
     width: 100%;
     height: 100%;
 }
+
+/* for 1024px */
+@media (max-width: 1024px) {
+    .coffee-lists {
+        width: 100%;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .coffee-listing-description {
+        max-width: 70%;
+    }
+
+}
+
+/* for 640px */
+@media (max-width: 640px) {
+    .coffee-lists {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .coffee-listing-description {
+        max-width: 100%;
+    }
+}
