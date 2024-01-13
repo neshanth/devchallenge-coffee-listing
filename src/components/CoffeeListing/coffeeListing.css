@@ -1,0 +1,43 @@
+.coffee-listing {
+    background-color: #1B1D1F;
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    bottom: 10rem;
+    padding: 4rem;
+    text-align: center;
+}
+
+.coffee-listing-content {
+    text-align: center;
+}
+
+.coffee-listing-description {
+    color: #6F757C;
+    max-width: 40%;
+    margin: 0 auto;
+}
+
+.coffee-listing-filters {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 4rem;
+}
+
+.coffee-listing-filters button {
+    background-color: #6F757C;
+    color: #fefefe;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    border: none;
+    margin-top: 1rem;
+}
+
+.coffee-lists {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 80%;
+    margin: 0 auto;
+    gap: 2rem;
+}

@@ -1,0 +1,39 @@
+.coffee-img {
+    border-radius: 0.5rem;
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 0.5rem;
+}
+
+.coffee-details {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+.coffee-name {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.coffee-price {
+    font-size: 0.75rem;
+    background-color: #BEE3CC;
+    color: #1b1d1f;
+    font-weight: 700;
+    padding: 0.2rem;
+    border-radius: 0.2rem;
+}
+
+.coffee-stats {
+    display: flex;
+}
+
+.coffee-rating {
+    font-weight: 700;
+    margin-right: 0.4rem;
+}
+
+.coffee-votes {
+    color: #6F757C;
+}
