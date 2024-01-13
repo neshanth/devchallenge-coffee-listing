@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111315;
+}
+
+.banner-image {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
